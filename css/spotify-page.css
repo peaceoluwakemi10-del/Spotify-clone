@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+             overflow-y: scroll;
+                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+main::-webkit-scrollbar{
+    display: none;
+}
+.home{
+    background-color:rgb(31,31,31);
+    clip-path: circle(35%);
+}
+.home img{
+    width: 30px;
+    height: 30px;
+    /* background-color: gray; */
+    /* clip-path: circle(50%); */
+}
+.Sportify{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+}
+.div2{
+    display: flex;
+    gap: 20px;
+}
+.search{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.play{
+    width: 350px;
+    height: 5vh;
+    background-color: rgb(31,31,31);
+    border: 3px solid rgb(31,31,31);
+      border-radius:20px 20px 20px 20px;
+          /* margin-left: 10px; */
+    padding-left: 40px;
+}
+.div3{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 140px;
+    display: flex;
+}
+.div3 button{
+    color: rgb(174,187,192);
+    background-color: black;
+    border: 3px solid black;
+}
+.one{
+    width: 1px;
+    height: 3vh;
+    background-color: white;
+margin-top: 18px;
+margin-left: 10px;
+}
+.next{
+    width: 100px;
+    color:rgb(131,131,131) ;
+    margin-top: 15px;
+    margin-left: 12px;
+    font-size: 12px;
+    text-decoration: none;
+    display: flex;
+    /* border: 3px solid red ; */
+}
+.next p{
+    padding-top: 10px;
+}
+.next img{
+    background-color: white;
+padding-top: -5px;
+    clip-path: circle(25%);
+}
+.next img:hover{
+    background-color: white;
+padding-top: -4px;
+    clip-path: circle(30%);
+}
+.next:hover{
+    width: 120px;
+    color: aliceblue;
+    font-size: 14px;
+}
+.Login{
+    width: 70px;
+    height: 5vh;
+    background-color: white;
+      border-radius:20px 20px 20px 20px;
+      margin-left: 15px;
+      margin-top: 20px;
+}
+.Login a{
+    color: black;
+    /* background-color: antiquewhite; */
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+.middle-body{
+     width: 98%;
+    height: 79vh;
+    background-color:black;
+    display: flex;
+    gap: 20px;
+}
+.aside{
+     width: 25%;
+    height: 75vh;
+    background-color:rgb(18,18,18);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.aside-div{
+    width: 95%;
+    height: 15vh;
+    background-color:rgb(31,31,31);
+border-radius: 10px;
+margin-top: 20px;
+padding-left: 20px;
+padding-top: 20px;
+}
+.aside-div h3{
+    color: white;
+    font-size: 12px;
+}
+.aside-div h4{
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.aside-div p{
+    width: 130px;
+    height: 20px;
+    font-size: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.aside-div button{
+    height: 20px;
+    margin-left: 10px;
+    background-color: white;
+    border: 3px solid white;
+}
+.middle{
+     width: 75%;
+    height: 75vh;
+    background-color: rgb(18,18,18);
+     border-radius: 10px;
+         overflow-y: scroll;
+}
+.middle::-webkit-scrollbar{
+    display: none;
+}
+ .aside header{
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+ }
+ .aside header p{
+    margin-left: 200px;
+    font-size: 25px;
+ }
+ .buttom{
+    width: 100%;
+    height: 20vh;
+    background-color:rgb(73, 70, 70);
+ }
+ .Songs{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 17px;
+ }
+ .scroll{
+    width: 95%;
+    height: 40vh;
+    margin-top: 30px;
+        margin-left: 50px;
+}
+.scroll-image{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+}
+.scroll-image img{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.div{
+    width: 200px;
+    padding-left: 10px;
+}
+.div:hover{
+    width: 200px;
+    border-radius: 15px;
+    background-color: rgb(34, 31, 31);
+}
+.scroll-image::-webkit-scrollbar{
+    display:none;
+}
+.amen{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.amen:hover{
+    text-decoration: underline;
+    font-size: 17px;
+}
+.both{
+    margin-top: 20px;
+}
+.both a{
+    color: gray;
+    text-decoration: none;
+        padding-left: 20px;
+}
+.both a:hover{
+    font-size: 12px;
+    text-decoration: underline;
+}
+.scroll2{
+    width: 95%;
+    height: 40vh;
+    margin-top: 5vh;
+        margin-left: 50px;
+        padding-left: 20px;
+}
+.scroll-image2{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+.scroll-image2 img{
+    border-radius: 10px;
+            clip-path: circle(50%);
+
+}
+.scroll-image2::-webkit-scrollbar{
+    display: none;
+}
+.Artist {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.Artist a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+.scroll3{
+    width: 95%;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+        margin-top: 10vh;
+            margin-left: 50px;
+}
+.scroll-image3{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+.scroll-image3 img{
+    border-radius: 10px;
+}
+.scroll-image3::-webkit-scrollbar{
+    display: none;
+}
+.scroll4{
+    width: 95%;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+        margin-top: 30vh;
+            margin-left: 50px;
+}
+.scroll-image4{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+.scroll-image4 img{
+    border-radius: 10px;
+}
+.scroll-image4::-webkit-scrollbar{
+    display: none;
+}
+.scroll5{
+    width: 95%;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: black;
+       margin-top: 30vh; 
+           margin-left: 50px;
+}
+.scroll-image5{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    background-color: black;
+}
+.scroll-image5 img{
+    border-radius: 10px;
+}
+.scroll-image5::-webkit-scrollbar{
+    display: none;
+}
+
+ 
+
+ 

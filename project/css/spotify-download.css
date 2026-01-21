@@ -1,0 +1,270 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.all {
+    height: 140vh;
+    
+}
+.fir {
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+
+}
+.relative{
+    position: relative;
+    cursor: pointer;
+    color: white;
+     gap: 40px;
+     padding-left: 400px
+}
+.pre{
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.pre:hover{
+    color:rgb(35, 232, 48) ;
+}
+.dropdown-menu{
+    position: absolute;
+    width: 55vh;
+    height: 70vh;
+    border-radius: 10px;
+    background-color:rgb(33, 32, 32);
+    /* line-height: 30px; */
+    padding-left: 23px;
+    padding-top: 10px;
+    top: 53px;
+    display: none;
+}
+.relative:hover .dropdown-menu{
+    display: block;
+}
+.pre1{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom:40px;
+}
+.h1 {
+     margin-left: 70vh;
+    color: white;
+    margin-top: 2vh;
+}
+.h2 { color: white;
+    margin-left: 5vh;
+    margin-top: 2vh;
+}
+.h3 { color: white;
+     margin-left: 5vh;
+    margin-top: 2vh;
+}
+.h1:hover {
+    color: rgb(228, 222, 222);
+}
+.h2:hover {
+    color: rgb(228, 222, 222);
+}
+.h3:hover {
+    color: rgb(228, 222, 222);
+}
+.line {
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    margin-top: 2vh;
+    margin-left: 4vh;
+}
+.h4 { color: rgb(206, 204, 204);
+     margin-left: 7vh;
+    margin-top: 2vh;
+}
+.b3 {
+    color: white;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5vh;
+    border: none;
+    margin-top: 2vh;
+}
+.h5 { color:  rgb(206, 204, 204);
+     margin-left: 5vh;
+    margin-top: 2vh;
+}
+
+.img {
+    height: 50px;
+    margin-left: 15vh;
+
+}
+.background {
+    background-image: url("/pics/download\ image.jpg");
+    width: 100%;
+    height: 80vh;
+}
+.dow {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -200px;
+}
+.pl {
+     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3vh;
+}
+.sp {
+    margin-left:500px;
+    width: 20%;
+    height: 10vh;
+    margin-top: -30vh;
+}
+.dow2 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.lis {
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.using {
+     text-align: center;
+    font-size: 17px;
+    margin-top: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ppp {
+    margin-left: 74vh;
+    margin-top: 10vh;
+    size: 100vh;
+}
+.p {
+    width: 20vh;
+}
+.p1 {
+    width: 20vh;
+}
+.p2 {
+  width:20vh;
+}
+.z {
+    text-align: center;
+    margin-top: -70px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mbt{
+    display: flex;
+    gap:20px;
+    /* text-align: center; */
+    padding-left: 300px;
+    padding-right: 30px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}
+.mbt :hover{
+    color: rgb(35, 232, 48);
+    cursor:pointer;
+}
+footer {
+    display: flex;
+    gap: 20px;
+    background-color: black;
+    padding-top: 20vh;
+}
+
+.footer-icon {
+    width: 18vw;
+    height: 50vh;
+    display: flex;
+}
+
+.footer-icon2 {
+    width: 24vw;
+    height: 50vh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.icons-3 {
+    width: 3vw;
+    height: 6vh;
+    background-color: rgb(34, 35, 38);
+       border-radius: 30px;
+}
+.icons-3 i {
+    font-size: 25px;
+}
+
+.footer-text {
+    width: 14vw;
+    height: 50vh;
+}
+
+.gray {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: gray;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.green {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.green:hover {
+    color: green;
+    transition-duration: 300ms;
+}
+
+.footer-2 {
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    gap: 150px;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.text-f {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.text-f:hover {
+    color: green;
+}
+
+.flex-2 {
+    display: flex;
+    gap:10px;
+}

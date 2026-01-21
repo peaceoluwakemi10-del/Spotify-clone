@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+main{
+    width: 100%;
+        height: 150vh;
+    color: white;
+    background-color: black;
+    background-position: center;
+    /* margin-top: 20px; */
+    padding-top: 40px;
+}
+input{
+  color: white;
+    width: 90%;
+    height: 7vh;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 20px;
+  font-size: 15px;
+  
+}
+.Welcome{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+.all{
+    width: 27%;
+    height: 100vh;
+    /* padding-left: 10px; */
+    margin-left: 460px;
+    padding-top: 60px;
+    background-position: center;
+    /* border: 3px solid white; */
+/* margin-top: 30px; */
+}
+.cont{
+    width: 95%;
+    height: 7vh;
+    background-color: rgb(14, 202, 14);
+    margin-top: 20px;
+    border: 3px solid rgb(14, 202, 14);
+    border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cont:hover{
+    width: 95%;
+    height: 7.5vh;
+    background-color: rgb(29, 206, 29);
+    margin-top: 20px;
+    text-decoration: none;
+    border: 3px solid rgb(37, 173, 37);
+    border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cont a{
+    text-decoration: none;
+    color: black;
+}
+.or{
+    color:white;
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cont2{
+    width: 95%;
+    height: 7vh;
+    background-color:black;
+    margin-top: 18px;
+    border: 1px solid white;
+    border-radius: 25px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+}
+.cont2 img{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  clip-path: circle(40%);
+}
+.cont2:hover{
+    width: 95%;
+    height: 7.5vh;
+    background-color:rgb(17, 17, 17);
+    margin-top: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cont2 a{
+    text-decoration: none;
+    color:white;
+    margin-top: 10px;
+}
+.cont4{
+    width: 95%;
+    height: 7vh;
+    background-color:black;
+    margin-top: 12px;
+    border: 1px solid white;
+    border-radius: 25px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  padding-left: 5px;
+  padding-top: 5px;
+  gap: 20px;
+}
+.cont4:hover{
+    width: 95%;
+    height: 7.5vh;
+    background-color:rgb(17, 17, 17);
+    margin-top: 15px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 25px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cont4 a{
+    text-decoration: none;
+    color:white;
+    margin-top: 5px;
+
+}
+.cont5{
+    width: 95%;
+    height: 7vh;
+    background-color: black;
+    margin-top: 18px;
+    border: 1px solid white;
+    border-radius: 25px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  gap: 30px;
+}
+.cont5:hover{
+    width: 95%;
+    height: 7.5vh;
+    background-color:rgb(17, 17, 17);
+    margin-top: 18px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 25px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cont5 a{
+    text-decoration: none;
+    color:white;
+    margin-top: 5px;
+}
+.sign{
+  color: wheat;
+  /* margin-top: 20px; */
+margin-left: 450px;
+}
+.sign p{
+  color: wheat;
+  font-size: 15px;
+}
+.sign a{
+  color:antiquewhite;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 50px;
+  font-weight: 700;
+}
+.sign a:hover{
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: 800;
+}
+.foot{
+  color: wheat;
+  margin-top: 50px;
+  font-size: 13px;
+  margin-left: 380px;
+}
+.foot a{
+  text-decoration: none;
+  color: wheat;
+}
+.foot a:hover{
+  text-decoration: underline;
+ color:green;
+}
